@@ -1,0 +1,29 @@
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footer p:first-child {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #007aff;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem;
+  }
+  
+  .footer p {
+    font-size: 0.8rem;
+  }
+} 
