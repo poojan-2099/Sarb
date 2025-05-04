@@ -36,9 +36,24 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>SarbReal | Premier Real Estate Services in Southern California</title>
-        <meta name="description" content="Expert real estate services in Los Angeles, San Fernando Valley, Ventura County, Bakersfield, and Santa Clarita. Find your dream home today." />
+        <title>Top Real Estate Agent in Los Angeles, SFV, Ventura & Bakersfield | SarbReal</title>
+        <meta
+          name="description"
+          content="Looking to buy or sell a home in Los Angeles, San Fernando Valley, Ventura County, or Bakersfield? Sarbjit Sogy at SarbReal provides expert real estate guidance, local insight, and personalized service for home buyers, sellers, and investors."
+        />
+        <meta
+          name="keywords"
+          content="real estate agent Los Angeles, homes for sale in SFV, Ventura County realtor, Bakersfield property, Sarbjit Sogy, SarbReal, CA DRE 02070444, Southern California real estate"
+        />
+        <meta name="author" content="Sarbjit Sogy - SarbReal" />
+        <meta property="og:title" content="SarbReal | Real Estate Agent in LA, SFV, Ventura, Bakersfield" />
+        <meta property="og:description" content="Trusted real estate services by Sarbjit Sogy. Serving LA, San Fernando Valley, Ventura County, and Bakersfield with local expertise and dedication." />
+        <meta property="og:image" content="/images/seo-preview.jpg" />
+        <meta property="og:url" content="https://www.sarbreal.com" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.sarbreal.com" />
       </Helmet>
+
       <div className="page home">
         <ImageCarousel images={carouselImages} />
         <motion.section 

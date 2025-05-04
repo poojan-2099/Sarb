@@ -28,8 +28,22 @@ const ContactMe = () => {
   return (
     <>
       <Helmet>
-        <title>Contact SarbReal | Get in Touch Today</title>
-        <meta name="description" content="Contact SarbReal for expert real estate services in Southern California. Schedule a consultation today." />
+        <title>Contact Sarbjit Sogy | Real Estate Agent in LA, SFV, Ventura, Bakersfield</title>
+        <meta
+          name="description"
+          content="Get in touch with Sarbjit Sogy at SarbReal to buy or sell property in Los Angeles, San Fernando Valley, Ventura County, or Bakersfield. Request a free consultation today."
+        />
+        <meta
+          name="keywords"
+          content="contact real estate agent Los Angeles, real estate SFV, Ventura homes, Bakersfield realtor, SarbReal contact, Sarbjit Sogy, CA DRE 02070444"
+        />
+        <meta name="author" content="Sarbjit Sogy - SarbReal" />
+        <meta property="og:title" content="Contact SarbReal | Local Real Estate Help in LA, SFV, Ventura, Bakersfield" />
+        <meta property="og:description" content="Schedule a consultation with SarbReal, your dedicated real estate agent for Los Angeles, Ventura, Bakersfield and SFV. Transparent service and expert guidance." />
+        <meta property="og:image" content="/images/seo-preview.jpg" />
+        <meta property="og:url" content="https://www.sarbreal.com/contact" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.sarbreal.com/contact" />
       </Helmet>
 
       <div className="contact-page">
