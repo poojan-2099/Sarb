@@ -43,25 +43,36 @@ const ContactMe = () => {
         <section className="contact-form-section">
           <div className="contact-form-container">
             <div className="contact-info">
-              <div className="info-item">
+            <div className="info-item">
                 <i className="fas fa-phone"></i>
                 <div>
                   <h3>Phone</h3>
-                  <p>+1 (818) 123-4567</p>
+                  <a href="tel:+18184248039">
+                    <p>+1 (818) 424-8039</p>
+                  </a>
                 </div>
               </div>
               <div className="info-item">
                 <i className="fas fa-envelope"></i>
                 <div>
                   <h3>Email</h3>
-                  <p>sarbreal@gmail.com</p>
+                  <a href="mailto:sarbreal@gmail.com">
+                    <p>sarbreal@gmail.com</p>
+                  </a>
                 </div>
               </div>
+
               <div className="info-item">
                 <i className="fas fa-map-marker-alt"></i>
                 <div>
                   <h3>Office</h3>
-                  <p>Northridge</p>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Northridge"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p>Northridge</p>
+                  </a>
                 </div>
               </div>
             </div>

@@ -48,7 +48,7 @@ const Home = () => {
             Discover exceptional properties across Southern California's most desirable locations.
           </p>
           <div className="signature">
-            <span className="signature-text">SarbReal</span>
+            <span className="signature-text">Sarbjit Sogy </span><br></br>
             <span className="signature-subtext">DRE #02070444 | Partnered with Sunrise Star Realty, Chatsworth</span>
           </div>
         </motion.section>
@@ -75,10 +75,10 @@ const Home = () => {
             <p>Access to exclusive listings and comprehensive market analysis.</p>
           </div>
         </motion.section>
-
+{/* 
         <section className="testimonial">
           "Working with Sarb was an exceptional experience. Their knowledge of the Los Angeles market helped us find our perfect home." - Sarah M.
-        </section>
+        </section> */}
 
         <motion.section 
           className="featured-areas"

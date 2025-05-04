@@ -13,7 +13,7 @@ const overlayBlocks = [
     'Stop contemplating and lets take action today let me help you guide you through the process weather its buying or selling im here to help.'
   ],
   [
-    'You need a agent that is young, energetic, hungry and driven born and raised in LA I know everything about la, sfv and Bakersfield. Feel free to call me on my cell 8184248039 feel free to ask me anything im here to help so lets make a deal .'
+    'You need a agent that is young, energetic, hungry and driven born and raised in LA I know everything about la, sfv and Bakersfield. Feel free to call me on my cell 8184248039 feel free to ask me anything im here to help so lets get you a best deal .'
   ]
 ];
 

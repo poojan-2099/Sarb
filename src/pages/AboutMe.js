@@ -87,9 +87,9 @@ const AboutMe = () => {
             </div>
           </motion.div>
 
-          <motion.section variants={itemVariants} className="testimonial">
+          {/* <motion.section variants={itemVariants} className="testimonial">
             "Their expertise in the Los Angeles market is unmatched. They helped us navigate a competitive market with confidence and secured our dream home." - Michael R.
-          </motion.section>
+          </motion.section> */}
 
           <motion.div variants={itemVariants} className="cta-section">
             <h2>Ready to Work Together?</h2>
