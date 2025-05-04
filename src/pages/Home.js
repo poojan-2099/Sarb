@@ -41,16 +41,59 @@ const Home = () => {
       </Helmet>
       <div className="page home">
         <ImageCarousel images={carouselImages} />
+        <motion.section 
+          className="call-action-section"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          viewport={{ once: true }}
+        >
+          <h2 className="call-action-title">Let’s Talk Real Estate</h2>
+          <div className="call-action-content">
+            <div className="call-action-left">
+              <ul>
+                <li>Thinking about buying your first home?</li>
+                <li>Thought about selling?</li>
+                <li>Is your lease expiring?</li>
+                <li>Not sure if it’s the right time to invest?</li>
+                <li>Planning to buy in Los Angeles but unsure where?</li>
+              </ul>
+            </div>
+            <div className="call-action-right">
+              <p>
+                Stop contemplating—take action today. I’m <strong>Sarbjit Sogy</strong>, a driven, energetic agent born and raised in LA. 
+                I know the neighborhoods, the market, and how to get you the best deal—whether you're buying or selling.
+              </p>
+              <a href="tel:+18184248039" className="call-now-btn">📞 Call Me Now: (818) 424-8039</a>
+            </div>
+          </div>
+        </motion.section>
+
+
+        <section className="profile-section">
+          <div className="profile-image-container">
+            <img src="/sb_about.jpg" alt="Sarbjit Sogy" className="profile-image" />
+          </div>
+          <div className="profile-text">
+            <h2 className="section-title">Meet Your Agent</h2>
+            <p className="lead-text">
+              I'm <strong>Sarbjit Sogy</strong>, a dedicated real estate professional born and raised in Los Angeles. With deep market knowledge and a strong drive, I specialize in helping buyers and sellers throughout LA, SFV, and Bakersfield.
+            </p>
+            <p>
+              Whether you're buying your first home, selling a property, or investing, I'm here to guide you every step of the way with transparency, hustle, and expertise.
+            </p>
+            <p className="dre-info">
+              Call me directly at <a href="tel:+18184248039" style={{ color: '#2B6CB0' }}>(818) 424-8039</a><br />
+              DRE #: 02070444
+            </p>
+          </div>
+        </section>
 
         <motion.section className="hero" {...fadeIn}>
           <h1 className="section-title">Elevating Your Real Estate Experience</h1>
           <p className="hero-text">
             Discover exceptional properties across Southern California's most desirable locations.
           </p>
-          <div className="signature">
-            <span className="signature-text">Sarbjit Sogy </span><br></br>
-            <span className="signature-subtext">DRE #02070444 | Partnered with Sunrise Star Realty, Chatsworth</span>
-          </div>
         </motion.section>
 
         <motion.section 
@@ -75,10 +118,6 @@ const Home = () => {
             <p>Access to exclusive listings and comprehensive market analysis.</p>
           </div>
         </motion.section>
-{/* 
-        <section className="testimonial">
-          "Working with Sarb was an exceptional experience. Their knowledge of the Los Angeles market helped us find our perfect home." - Sarah M.
-        </section> */}
 
         <motion.section 
           className="featured-areas"
@@ -129,11 +168,9 @@ const Home = () => {
             </AnimatedButton>
           </Link>
         </motion.div>
-
-        
       </div>
     </>
   );
 };
 
-export default Home; 
+export default Home;

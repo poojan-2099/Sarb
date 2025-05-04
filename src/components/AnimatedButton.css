@@ -34,11 +34,11 @@
   }
 }
 
-.contact-form {
+/* .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 .contact-form .animated-btn {
   margin-left: auto;
