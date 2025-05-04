@@ -30,6 +30,14 @@
   color: #007aff;
 }
 
+.header nav .active {
+  color: #fff;
+  background: #007aff;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,122,255,0.12);
+}
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;

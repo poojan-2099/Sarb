@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => (
@@ -9,9 +9,9 @@ const Header = () => (
       SarbReal
     </Link>
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/about">About Me</Link>
-      <Link to="/contact">Contact Me</Link>
+      <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
+      <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>About Me</NavLink>
+      <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>Contact Me</NavLink>
     </nav>
   </header>
 );

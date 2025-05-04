@@ -61,16 +61,17 @@ const ContactMe = () => {
                 <i className="fas fa-map-marker-alt"></i>
                 <div>
                   <h3>Office</h3>
-                  <p>Nortridge</p>
+                  <p>Northridge</p>
                 </div>
               </div>
             </div>
 
             <form ref={form} onSubmit={sendEmail} className="contact-form">
+              <input type="hidden" name="to_email" value="your@email.com" />
               <div className="form-group">
                 <input
                   type="text"
-                  name="user_name"
+                  name="name"
                   placeholder="Your Name"
                   required
                 />

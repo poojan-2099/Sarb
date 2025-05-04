@@ -1,4 +1,4 @@
-.animated-btn {
+/* .animated-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
   transition: all 0.3s ease;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   width: 100%;
-}
+} */
 
 .animated-btn:hover {
   background: #005bb5;
@@ -32,4 +32,16 @@
     padding: 0.6rem 1.5rem;
     font-size: 1rem;
   }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form .animated-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 } 

@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import AnimatedButton from "../components/AnimatedButton";
+import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
   const containerVariants = {
@@ -92,9 +93,11 @@ const AboutMe = () => {
 
           <motion.div variants={itemVariants} className="cta-section">
             <h2>Ready to Work Together?</h2>
-            <AnimatedButton as="a" href="/contact">
-              <i className="fas fa-handshake"></i> Let's Connect
-            </AnimatedButton>
+            <Link to="/contact">
+              <AnimatedButton>
+                <i className="fas fa-handshake"></i> Let's Connect
+              </AnimatedButton>
+            </Link>
           </motion.div>
         </motion.section>
       </div>

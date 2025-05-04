@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import AnimatedButton from "../components/AnimatedButton";
 import ImageCarousel from "../components/ImageCarousel";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const fadeIn = {
@@ -122,9 +123,11 @@ const Home = () => {
           transition={{ delay: 0.9 }}
         >
           <h2>Ready to Find Your Dream Home?</h2>
-          <AnimatedButton as="a" href="/contact">
-            <i className="fas fa-calendar"></i> Schedule a Consultation
-          </AnimatedButton>
+          <Link to="/contact">
+            <AnimatedButton>
+              <i className="fas fa-calendar"></i> Schedule a Consultation
+            </AnimatedButton>
+          </Link>
         </motion.div>
 
         
