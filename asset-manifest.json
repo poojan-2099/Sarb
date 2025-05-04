@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Sarb/static/css/main.3d014b4a.css",
+    "main.js": "/Sarb/static/js/main.e9e6709a.js",
+    "static/media/contact-hero.jpg": "/Sarb/static/media/contact-hero.14b4ce42d3c6625b8b2c.jpg",
+    "index.html": "/Sarb/index.html",
+    "main.3d014b4a.css.map": "/Sarb/static/css/main.3d014b4a.css.map",
+    "main.e9e6709a.js.map": "/Sarb/static/js/main.e9e6709a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d014b4a.css",
+    "static/js/main.e9e6709a.js"
+  ]
+}
