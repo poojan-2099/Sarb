@@ -76,7 +76,7 @@ const Home = () => {
             </div>
             <div className="call-action-right">
               <p>
-                Stop contemplating—take action today. I’m <strong>Sarbjit Sogy</strong>, a driven, energetic agent born and raised in LA. 
+                Stop imagining—take action today. I’m <strong>Sarbjit Sogy</strong>, a driven, energetic agent born and raised in LA. 
                 I know the neighborhoods, the market, and how to get you the best deal—whether you're buying or selling.
               </p>
               <a href="tel:+18184248039" className="call-now-btn">📞 Call Me Now: (818) 424-8039</a>
