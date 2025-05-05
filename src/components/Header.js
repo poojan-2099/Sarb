@@ -11,13 +11,20 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        {/* Left: Logo */}
+        {/* Logo - Left */}
         <Link to="/" className="logo" onClick={closeMenu}>
           <img src="/logo.png" alt="SarbReal Logo" className="logo-image" />
           <span className="logo-text">SarbReal</span>
         </Link>
 
-        {/* Right: Burger + Nav */}
+        {/* Desktop nav */}
+        <nav className="nav-links-desktop">
+          <NavLink to="/" end>Home</NavLink>
+          <NavLink to="/about">About Me</NavLink>
+          <NavLink to="/contact">Contact Me</NavLink>
+        </nav>
+
+        {/* Mobile burger */}
         <div className="nav-right">
           <button
             className={`burger ${menuOpen ? "open" : ""}`}
@@ -28,20 +35,15 @@ const Header = () => {
             <span></span>
             <span></span>
           </button>
-
-          <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
-            <NavLink to="/" end onClick={closeMenu}>
-              Home
-            </NavLink>
-            <NavLink to="/about" onClick={closeMenu}>
-              About Me
-            </NavLink>
-            <NavLink to="/contact" onClick={closeMenu}>
-              Contact Me
-            </NavLink>
-          </nav>
         </div>
       </div>
+
+      {/* Mobile dropdown nav */}
+      <nav className={`nav-links-mobile ${menuOpen ? "active" : ""}`}>
+        <NavLink to="/" end onClick={closeMenu}>Home</NavLink>
+        <NavLink to="/about" onClick={closeMenu}>About Me</NavLink>
+        <NavLink to="/contact" onClick={closeMenu}>Contact Me</NavLink>
+      </nav>
     </header>
   );
 };
