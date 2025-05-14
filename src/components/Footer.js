@@ -20,7 +20,7 @@ const Footer = () => (
           <a href="https://www.facebook.com/sarbreal" target="_blank" rel="noopener noreferrer" className="social-icon">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="https://www.instagram.com/sarbreal" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://www.instagram.com/sarbrealtor" target="_blank" rel="noopener noreferrer" className="social-icon">
             <i className="fab fa-instagram"></i>
           </a>
           <a href="https://www.linkedin.com/in/sarbreal" target="_blank" rel="noopener noreferrer" className="social-icon">
@@ -31,6 +31,7 @@ const Footer = () => (
           </a>
         </div>
       </div>
+
 
       <div className="footer-column footer-link-wrap">
         <Link to="/contact" className="footer-contact-link">
