@@ -42,10 +42,12 @@ const Footer = () => (
 
     <div className="footer-info">   
       <p>DRE #02070444 | Partnered with 
-        <a href="https://maps.app.goo.gl/Pm7aW6HTphWxyjEP8" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          style="text-decoration: none !important; color: inherit !important;">
+        <a
+          href="https://maps.app.goo.gl/Pm7aW6HTphWxyjEP8"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none', color: 'inherit' }}
+        >
           Sunrise Star Realty, Chatsworth
         </a>
       </p>
