@@ -40,16 +40,16 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="footer-info">
-      <p>© {new Date().getFullYear()} SarbReal. All rights reserved.</p>
+    <div className="footer-info">   
       <p>DRE #02070444 | Partnered with 
         <a href="https://maps.app.goo.gl/Pm7aW6HTphWxyjEP8" 
           target="_blank" 
           rel="noopener noreferrer" 
-          style="text-decoration: none; color: inherit;">
+          style="text-decoration: none !important; color: inherit !important;">
           Sunrise Star Realty, Chatsworth
         </a>
       </p>
+      <p>© {new Date().getFullYear()} SarbReal. All rights reserved.</p>
     </div>
   </footer>
 );
